@@ -1,0 +1,8 @@
+title = "T.I.L."
+baseURL = "https://til.marcusnoble.co.uk"
+languageCode = "en-gb"
+theme = "hello-friend-ng"
+enableGitInfo = true
+
+[permalinks]
+  posts = "/:title/"
