@@ -9,8 +9,7 @@ ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
 RUN curl -sL -o /tmp/hugo.deb \
     https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
     dpkg -i /tmp/hugo.deb && \
-    rm /tmp/hugo.deb && \
-    mkdir ${SITE_DIR}
+    rm /tmp/hugo.deb
 
 WORKDIR /app
 ADD . .
