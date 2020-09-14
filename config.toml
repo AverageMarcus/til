@@ -7,6 +7,8 @@ enableGitInfo = true
 [permalinks]
   posts = "/:title/"
 
-
 [params]
   gitUrl = "https://git.cluster.fun/AverageMarcus/til/commit/"
+
+[taxonomies]
+  series = "series"

@@ -5,6 +5,8 @@ draft: false
 tags:
   - tekton
   - docker
+images:
+- /images/tekton-multi-arch-builds.gif
 ---
 
 Using Buildkit to build multi-arch compatible images without Docker daemon:
