@@ -47,7 +47,7 @@ ci:
 
 .PHONY: release # Release the latest version of the application
 release:
-	@echo "⚠️ 'release' unimplemented"
+	@kubectl --namespace til set image deployment til web=docker.cloud.cluster.fun/averagemarcus/til:$(SHA)
 
 .PHONY: help # Show this list of commands
 help:
