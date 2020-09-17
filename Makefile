@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= docker.cloud.cluster.fun/averagemarcus/til:latest
+IMAGE ?= docker.cluster.fun/averagemarcus/til:latest
 
 .PHONY: test # Run all tests, linting and format checks
 test: lint check-format run-tests
@@ -47,7 +47,7 @@ ci:
 
 .PHONY: release # Release the latest version of the application
 release:
-	@kubectl --namespace til set image deployment til web=docker.cloud.cluster.fun/averagemarcus/til:$(SHA)
+	@kubectl --namespace til set image deployment til web=docker.cluster.fun/averagemarcus/til:$(SHA)
 
 .PHONY: help # Show this list of commands
 help:
