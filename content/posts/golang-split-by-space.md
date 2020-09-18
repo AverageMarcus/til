@@ -1,5 +1,5 @@
 ---
-title: "Split on spaces in Gp"
+title: "Split on spaces in Go"
 date: 2020-09-18
 draft: false
 tags:
