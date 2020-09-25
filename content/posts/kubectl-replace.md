@@ -1,6 +1,6 @@
 ---
 title: "kubectl replace"
-date: 2020-09-25 10:00
+date: 2020-09-25
 draft: false
 tags:
   - kubernetes
