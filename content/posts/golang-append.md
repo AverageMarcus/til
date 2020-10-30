@@ -47,15 +47,15 @@ package main
 import "fmt"
 
 func main() {
-	first := []int{0, 1, 2, 3, 4, 5, 6}
-	second := []int{4, 5, 6}
+  first := []int{0, 1, 2, 3, 4, 5, 6}
+  second := []int{4, 5, 6}
 
-	fmt.Println(first)
-	// -> [0 1 2 3 4 5 6]
-	fmt.Println(append(first[:2:2], second...))
-	// -> [0 1 4 5 6]
-	fmt.Println(first)
-	// -> [0 1 2 3 4 5 6]
+  fmt.Println(first)
+  // -> [0 1 2 3 4 5 6]
+  fmt.Println(append(first[:2:2], second...))
+  // -> [0 1 4 5 6]
+  fmt.Println(first)
+  // -> [0 1 2 3 4 5 6]
   fmt.Println("Much better :)")
 }
 ```
