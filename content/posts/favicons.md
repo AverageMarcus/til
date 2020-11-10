@@ -15,4 +15,6 @@ https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.bbc.co.uk/
 
 Example: ![](https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.bbc.co.uk/)
 
-You can even provide
+You can even provide any page, not just the root URL.
+
+e.g. `https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.bbc.co.uk/news/newsbeat-54838856`: ![](https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.bbc.co.uk/news/newsbeat-54838856)
