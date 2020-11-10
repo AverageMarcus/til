@@ -1,6 +1,6 @@
 ---
-title: "How to get favicon of any site"
-date: 2020-11-10T12:49:37+01:00
+title: "How to get the favicon of any site"
+date: 2020-11-10T09:49:37+01:00
 draft: false
 tags:
 - favicon
