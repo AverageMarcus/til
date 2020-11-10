@@ -1,6 +1,6 @@
 ---
 title: "Named returns in Go functions"
-date: 2020-10-05T15:50
+date: 2020-10-05T15:50:00
 draft: false
 tags:
   - golang
