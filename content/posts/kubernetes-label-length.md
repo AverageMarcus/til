@@ -8,7 +8,7 @@ images:
 - /images/kubernetes-label-length.gif
 ---
 
-It turns out that labels _values_ in Kubernetes have a limit of 63 characters!
+It turns out that label _values_ in Kubernetes have a limit of 63 characters!
 
 I discovered this today when none of my nodes seemed to be connecting to the control plane. Eventually discovered the hostname of the node was longer than 63 characters (mainly due to multiple subdomain levels) and so the `kubernetes.io/hostname` label being automtically added to the node was causing Kubernetes to reject it.
 
