@@ -5,7 +5,7 @@ draft: false
 tags:
   - golang
 images:
-- /images/go-named-return-values.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=Named%20returns%20in%20Go%20functions&tags=golang%2Cprogramming&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 While debugging some issues I was having with the AWS Golang SDK I discovered it was possible to name your function return values (pointers) and then set them within your function body without needing to explicitly return them at the end.

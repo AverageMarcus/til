@@ -6,10 +6,10 @@ tags:
   - go
   - golang
 images:
-- /images/golang-split-by-space.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=Split%20on%20spaces%20in%20Go&tags=golang%2Cprogramming%2Carrays&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
-While looking to split a multiline and space separated string and not having any look with `strings.Split()` I came across this somewhat oddly names function:
+While looking to split a multiline and space separated string and not having any luck with `strings.Split()` I came across this somewhat oddly names function:
 
 ```go
 import (

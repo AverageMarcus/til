@@ -5,7 +5,7 @@ draft: false
 tags:
   - golang
 images:
-- /images/golang-append.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=Golang's%20append%20mutates%20the%20provided%20array&tags=golang%2Cprogramming%2Carrays%2Cslices&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 A word of warning when using `append()` in Golang...

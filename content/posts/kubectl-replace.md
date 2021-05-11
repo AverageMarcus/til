@@ -6,7 +6,7 @@ tags:
   - kubernetes
   - kubectl
 images:
-- /images/kubectl-replace.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=kubectl%20replace&tags=kubernetes%2Ckubectl&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 After working with Kubernetes for a few years now I've only just today learnt about `kubectl replace` which, you guessed it, completely replaces a resource.

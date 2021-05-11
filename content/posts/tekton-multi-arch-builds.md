@@ -6,7 +6,7 @@ tags:
   - tekton
   - docker
 images:
-- /images/tekton-multi-arch-builds.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=Tekton%20Multi-Arch%20Image%20Builds&tags=tekton%2Cdocker%2Cci%2Ccd&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 Using Buildkit to build multi-arch compatible images without Docker daemon:

@@ -5,7 +5,7 @@ draft: false
 tags:
   - yaml
 images:
-- /images/yaml-multiline.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=YAML%20multiline%20values&tags=yaml&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 After using YAML for a long time, for many, many Kubernetes manifest files, I have today learnt that it contains two multiline value types (called scalars):

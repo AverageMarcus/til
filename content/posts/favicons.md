@@ -3,9 +3,9 @@ title: "How to get the favicon of any site"
 date: 2020-11-10T09:49:37+01:00
 draft: false
 tags:
-- favicon
+- 
 images:
-- /images/favicons.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=How%20to%20get%20the%20favicon%20of%20any%20site&tags=favicon&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 If you ever find yourself needing to display a small icon for a 3rd party URL but don't want to have to crawl the site to pull out the favicon URL then you can make use of a Google CDN:

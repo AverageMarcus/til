@@ -5,7 +5,7 @@ draft: false
 tags:
   - kubernetes
 images:
-- /images/kubernetes-label-length.gif
+- https://opengraph.cluster.fun/opengraph/?siteTitle=Today%20I%20learnt...&title=Kubernetes%20label%20length&tags=kubernetes%2Clabels&image=https%3A%2F%2Fmarcusnoble.co.uk%2Fimages%2Fmarcus.jpg&twitter=Marcus_Noble_&github=AverageMarcus&website=www.MarcusNoble.co.uk
 ---
 
 It turns out that label _values_ in Kubernetes have a limit of 63 characters!
